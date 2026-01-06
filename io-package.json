@@ -1,6 +1,6 @@
 {
   "common": {
-    "name": "zwaveWS",
+    "name": "zwavews",
     "version": "0.0.2",
     "news": {
       "0.0.2": {
@@ -34,7 +34,7 @@
     "titleLang": {
       "en": "zwaveWS",
       "de": "zwaveWS",
-      "ru": "зигби2мктт",
+      "ru": "zwaveWS",
       "pt": "zwaveWS",
       "nl": "zwaveWS",
       "fr": "zwaveWS",
