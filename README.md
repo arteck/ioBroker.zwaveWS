@@ -32,6 +32,9 @@ we use the Home Assistant Settings for this:
 
 
 ## Changelog
+### 0.0.8 (2026-01-06)
+* (arteck) add warning message for inteview states
+
 ### 0.0.7 (2026-01-06)
 * (arteck) add name if not in device info tree
 

@@ -301,14 +301,17 @@ class zwavews extends core.Adapter {
                         this.log.error(`Delete ${utils.formatNodeId(eventTyp.nodeId)}`);
                         break;
                   }
-
+                  case 'interview started':
+                  case 'interview stage completed':
+                  case 'interview failed':
+                  case 'interview completed':
+                    this.log.info(`${utils.formatNodeId(eventTyp.nodeId)} --> ${eventTyp.event}`);
+                    break;
+                  
                   case 'statistics updated':
                   case 'metadata updated':
                   case 'value added':
                   case 'node info received':
-                  case 'interview started':
-                  case 'interview stage completed':
-                    case 'interview failed':
                     break;
                 default:
                     if (this.config.newTypeEvent) {

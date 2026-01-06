@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "news": {
+      "0.0.8": {
+        "en": "add warning message for inteview states",
+        "de": "warnmeldung für inteview-staaten hinzufügen",
+        "ru": "добавить предупреждающее сообщение для состояний inteview",
+        "pt": "adicionar a mensagem de aviso para estados de inteview",
+        "nl": "waarschuwing voor inteview states toevoegen",
+        "fr": "ajouter un message d'avertissement pour les états d'inteview",
+        "it": "aggiungere un messaggio di avviso per gli stati di inteview",
+        "es": "añadir mensaje de advertencia para los estados de inteview",
+        "pl": "dodaj komunikat ostrzegawczy dla stanów inteview",
+        "uk": "додати повідомлення попередження про стани inteview",
+        "zh-cn": "为 inteview 状态添加警告消息"
+      },
       "0.0.7": {
         "en": "add name if not in device info tree",
         "de": "name hinzufügen, wenn nicht in gerät info baum",
