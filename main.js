@@ -290,8 +290,14 @@ class zwavews extends core.Adapter {
 
                   case 'node removed': {
                         const nodeId = utils.formatNodeId(eventTyp.nodeId);
-                        const nodeArg = {name : 'Node is Deleted'};
-                        await helper.updateDevice(nodeId, nodeArg);
+
+                        if (this.config.useEventInDesc) {
+                           const nodeArg = {desc: "Node is Deleted"};
+                           await helper.updateDevice(nodeId, nodeArg, false);
+                        } else {
+                          const nodeArg = {name : 'Node is Deleted'};
+                          await helper.updateDevice(nodeId, nodeArg, true);
+                        }
                         this.log.error(`Delete ${utils.formatNodeId(eventTyp.nodeId)}`);
                         break;
                   }

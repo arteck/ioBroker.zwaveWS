@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "news": {
+      "0.0.4": {
+        "en": "fix overrideState \n",
+        "de": "override fixieren Staat\n",
+        "ru": "исправить ошибку государство\n",
+        "pt": "corrigir sobreposição Estado\n",
+        "nl": "fix override Staat\n",
+        "fr": "correction de la priorité État\n",
+        "it": "correzione di sovraccarico Stato\n",
+        "es": "corrección Estado\n",
+        "pl": "fix derover Państwo\n",
+        "uk": "закріпити напляскване Стан\n",
+        "zh-cn": "固定覆盖 状态\n"
+      },
       "0.0.3": {
         "en": "fix title",
         "de": "bersetzung titel",
@@ -153,8 +166,7 @@
     "webUIScheme": "http",
     "webUIServer": "",
     "webUIPort": 8091,
-    "showNodeInfoMessages": true,
-    "renewNodeInfo": true,
+    "showNodeInfoMessage": true,
     "useEventInDesc": false,
     "wakeUpInfo": false,
     "newTypeEvent": true
