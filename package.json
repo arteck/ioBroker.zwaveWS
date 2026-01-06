@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.zwaveWS",
+  "name": "iobroker.zwavews",
   "version": "0.0.3",
   "description": "zwaveWS adapter for ioBroker",
   "author": {
