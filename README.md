@@ -32,6 +32,9 @@ we use the Home Assistant Settings for this:
 
 
 ## Changelog
+### 0.0.7 (2026-01-06)
+* (arteck) add name if not in device info tree
+
 ### 0.0.6 (2026-01-06)
 * (arteck) update title
 

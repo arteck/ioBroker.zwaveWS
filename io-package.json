@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "news": {
+      "0.0.7": {
+        "en": "add name if not in device info tree",
+        "de": "name hinzufügen, wenn nicht in gerät info baum",
+        "ru": "добавить имя, если не в дереве информации устройства",
+        "pt": "adicionar nome se não na árvore de informações do dispositivo",
+        "nl": "naam toevoegen indien niet in apparaatinformatieboom",
+        "fr": "ajouter un nom si ce n'est pas dans l'arborescence d'information du périphérique",
+        "it": "aggiungere il nome se non in dispositivo info albero",
+        "es": "añadir nombre si no en el árbol de información del dispositivo",
+        "pl": "dodaj nazwę, jeśli nie w drzewie informacyjnym urządzenia",
+        "uk": "додати ім'я, якщо не в пристрої інформаційне дерево",
+        "zh-cn": "如果没有在设备信息树中添加名称"
+      },
       "0.0.6": {
         "en": "update title",
         "de": "update titel",
