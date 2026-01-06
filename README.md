@@ -1,6 +1,4 @@
-<--img src="admin/zwaveWS.png" width="200" />
-
-# Icon kommt
+<img src="admin/zwaveWS.png" width="200" />
 
 # ioBroker.zwaveWS
 
