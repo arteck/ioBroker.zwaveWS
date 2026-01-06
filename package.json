@@ -1,6 +1,6 @@
 {
   "name": "iobroker.zwaveWS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "zwaveWS adapter for ioBroker",
   "author": {
     "name": "Dennis Rathjen and Arthur Rupp",
