@@ -1,15 +1,15 @@
 {
   "name": "iobroker.zwavews",
   "version": "0.0.3",
-  "description": "zwaveWS adapter for ioBroker",
+  "description": "zwavews adapter for ioBroker",
   "author": {
     "name": "Dennis Rathjen and Arthur Rupp",
     "email": "arteck@outlook.com"
   },
-  "homepage": "https://github.com/arteck/ioBroker.zwaveWS",
+  "homepage": "https://github.com/arteck/ioBroker.zwavews",
   "license": "MIT",
   "keywords": [
-    "zwaveWS",
+    "zwavews",
     "zwave",
     "zwave-js-ui",
     "ioBroker",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/arteck/ioBroker.zwaveWS.git"
+    "url": "https://github.com/arteck/ioBroker.zwavews.git"
   },
   "engines": {
     "node": ">= 20"
@@ -69,7 +69,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/arteck/ioBroker.zwaveWS/issues"
+    "url": "https://github.com/arteck/ioBroker.zwavews/issues"
   },
   "readmeFilename": "README.md"
 }

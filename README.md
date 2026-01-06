@@ -1,21 +1,21 @@
-<img src="admin/zwaveWS.png" width="200" />
+<img src="admin/zwavews.png" width="200" />
 
-# ioBroker.zwaveWS
+# ioBroker.zwavews
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.zwaveWS.svg)](https://www.npmjs.com/package/iobroker.zwaveWS)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.zwaveWS.svg)](https://www.npmjs.com/package/iobroker.zwaveWS)
-![Number of Installations](https://iobroker.live/badges/zwaveWS-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/zwaveWS-stable.svg)
+[![NPM version](https://img.shields.io/npm/v/iobroker.zwavews.svg)](https://www.npmjs.com/package/iobroker.zwavews)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.zwavews.svg)](https://www.npmjs.com/package/iobroker.zwavews)
+![Number of Installations](https://iobroker.live/badges/zwavews-installed.svg)
+![Current version in stable repository](https://iobroker.live/badges/zwavews-stable.svg)
 
-[![NPM](https://nodei.co/npm/iobroker.zwaveWS.png?downloads=true)](https://nodei.co/npm/iobroker.zwaveWS/)
+[![NPM](https://nodei.co/npm/iobroker.zwavews.png?downloads=true)](https://nodei.co/npm/iobroker.zwavews/)
 
 **Tests:**  
-![Test and Release](https://github.com/arteck/ioBroker.zwaveWS/workflows/Test%20and%20Release/badge.svg)
-![CodeQL](https://github.com/arteck/ioBroker.zwaveWS/actions/workflows/codeql.yml/badge.svg?branch=main)
+![Test and Release](https://github.com/arteck/ioBroker.zwavews/workflows/Test%20and%20Release/badge.svg)
+![CodeQL](https://github.com/arteck/ioBroker.zwavews/actions/workflows/codeql.yml/badge.svg?branch=main)
 
-## zwaveWS adapter for ioBroker
+## zwavews adapter for ioBroker
 
-The `zwaveWS` adapter connects a [`zwave-js-ui`](https://zwave-js.github.io/zwave-js-ui/#/) to ioBroker and creates corresponding data points for devices, values, and statuses. This allows Z-Wave devices to be conveniently used in visualizations, logic, and automations.
+The `zwavews` adapter connects a [`zwave-js-ui`](https://zwave-js.github.io/zwave-js-ui/#/) to ioBroker and creates corresponding data points for devices, values, and statuses. This allows Z-Wave devices to be conveniently used in visualizations, logic, and automations.
 
 
 ## Adapter Documentation

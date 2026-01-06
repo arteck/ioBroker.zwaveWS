@@ -11,7 +11,7 @@
       "items": {
         "header_Start": {
             "type": "header",
-            "text": "zwaveWS adapter settings",
+            "text": "zwavews adapter settings",
             "size": 2
         },
         "_textStart": {
@@ -31,7 +31,7 @@
             "type": "staticLink",
             "label": "click for Documentation",
             "button": true,
-            "href": "https://github.com/arteck/ioBroker.zwaveWS/blob/main/README.md",
+            "href": "https://github.com/arteck/ioBroker.zwavews/blob/main/README.md",
             "xs": 12,
             "sm": 12,
             "md": 6,
@@ -44,12 +44,12 @@
         },
         "connectionHeader": {
           "type": "header",
-          "text": "Select and configure your zwaveWS connection",
+          "text": "Select and configure your zwavews connection",
           "size": 2,
           "newLine": true
         },
         "connectionType": {
-          "label": "Select connection to zwaveWS",
+          "label": "Select connection to zwavews",
           "xs": 12,
           "sm": 12,
           "md": 6,
@@ -254,7 +254,7 @@
         },
         "webUIHeader": {
           "type": "header",
-          "text": "Configure your zwaveWS WebUi connection",
+          "text": "Configure your zwavews WebUi connection",
           "size": 2,
           "newLine": true
         },

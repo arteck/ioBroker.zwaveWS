@@ -31,11 +31,11 @@ let allNodes;
 let eventTyp;
 
 
-class zwaveWS extends core.Adapter {
+class zwavews extends core.Adapter {
   constructor(options) {
     super({
       ...options,
-      name: "zwaveWS",
+      name: "zwavews",
     });
     this.on("ready", this.onReady.bind(this));
     this.on("stateChange", this.onStateChange.bind(this));
@@ -74,7 +74,7 @@ class zwaveWS extends core.Adapter {
 
         // MQTT connection settings
         const mqttClientOptions = {
-          clientId: `ioBroker.zwaveWS_${Math.random().toString(16).slice(2, 8)}`,
+          clientId: `ioBroker.zwavews_${Math.random().toString(16).slice(2, 8)}`,
           clean: false,
           protocolVersion: 4,
           reconnectPeriod: 5000,
@@ -102,7 +102,7 @@ class zwaveWS extends core.Adapter {
         mqttClient = mqtt.connect(
           `mqtt://${this.config.mqttServerIPBind}:${this.config.mqttServerPort}`,
           {
-            clientId: `ioBroker.zwaveWS_${Math.random().toString(16).slice(2, 8)}`,
+            clientId: `ioBroker.zwavews_${Math.random().toString(16).slice(2, 8)}`,
             clean: true,
             reconnectPeriod: 500,
           },
@@ -111,7 +111,7 @@ class zwaveWS extends core.Adapter {
 
       // MQTT Client
       mqttClient.on("connect", () => {
-        this.log.info(`Connect to zwaveWS over ${this.config.connectionType == "exmqtt" ? "external mqtt" : "internal mqtt"} connection.`);
+        this.log.info(`Connect to zwavews over ${this.config.connectionType == "exmqtt" ? "external mqtt" : "internal mqtt"} connection.`);
         this.setState("info.connection", true, true);
       });
 
@@ -319,7 +319,7 @@ class zwaveWS extends core.Adapter {
       }
     } catch (err) {
       this.log.error(err);
-      this.log.error(`<zwaveWS> error message -->> ${message}`);
+      this.log.error(`<zwavews> error message -->> ${message}`);
     } finally {
       release();
     }
@@ -388,7 +388,7 @@ class zwaveWS extends core.Adapter {
       }
       this.setStateChanged('info.debugmessages', JSON.stringify(message), true);
 
-      this.log.debug(`<zwaveWS> error message ${message}`);
+      this.log.debug(`<zwavews> error message ${message}`);
 
       websocketController.send(JSON.stringify(message));
     }
@@ -400,8 +400,8 @@ if (require.main !== module) {
   /**
    * @param {Partial<core.AdapterOptions>} [options]
    */
-  module.exports = (options) => new zwaveWS(options);
+  module.exports = (options) => new zwavews(options);
 } else {
   // otherwise start the instance directly
-  new zwaveWS();
+  new zwavews();
 }

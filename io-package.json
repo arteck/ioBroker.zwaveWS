@@ -45,37 +45,37 @@
     },
     "messages": [],
     "titleLang": {
-      "en": "zwaveWS",
-      "de": "zwaveWS",
-      "ru": "zwaveWS",
-      "pt": "zwaveWS",
-      "nl": "zwaveWS",
-      "fr": "zwaveWS",
-      "it": "zwaveWS",
-      "es": "zwaveWS",
-      "pl": "zwaveWS",
-      "zh-cn": "zwaveWS",
-      "uk": "zwaveWS"
+      "en": "zwavews",
+      "de": "zwavews",
+      "ru": "zwavews",
+      "pt": "zwavews",
+      "nl": "zwavews",
+      "fr": "zwavews",
+      "it": "zwavews",
+      "es": "zwavews",
+      "pl": "zwavews",
+      "zh-cn": "zwavews",
+      "uk": "zwavews"
     },
     "desc": {
-      "en": "zwaveWS adapter for ioBroker",
-      "de": "zwaveWS-Adapter für ioBroker",
-      "ru": "Адаптер zwaveWS для ioBroker",
-      "pt": "Adaptador zwaveWS para ioBroker",
-      "nl": "zwaveWS-adapter voor ioBroker",
-      "fr": "Adaptateur zwaveWS pour ioBroker",
-      "it": "Adattatore zwaveWS per ioBroker",
-      "es": "Adaptador zwaveWS para ioBroker",
-      "pl": "Adapter zwaveWS do ioBroker",
-      "zh-cn": "用于 ioBroker 的 zwaveWS 适配器",
-      "uk": "Адаптер zwaveWS для ioBroker"
+      "en": "zwavews adapter for ioBroker",
+      "de": "zwavews-Adapter für ioBroker",
+      "ru": "Адаптер zwavews для ioBroker",
+      "pt": "Adaptador zwavews para ioBroker",
+      "nl": "zwavews-adapter voor ioBroker",
+      "fr": "Adaptateur zwavews pour ioBroker",
+      "it": "Adattatore zwavews per ioBroker",
+      "es": "Adaptador zwavews para ioBroker",
+      "pl": "Adapter zwavews do ioBroker",
+      "zh-cn": "用于 ioBroker 的 zwavews 适配器",
+      "uk": "Адаптер zwavews для ioBroker"
     },
     "authors": [
       "arteck <arteck@outlook.com>"
     ],
     "keywords": [
       "zwave",
-      "zwaveWS",
+      "zwavews",
       "zwave-js-ui",
       "zwave-js"
     ],
@@ -84,10 +84,10 @@
       "type": "free"
     },
     "platform": "Javascript/Node.js",
-    "icon": "zwaveWS.png",
+    "icon": "zwavews.png",
     "enabled": false,
-    "extIcon": "https://raw.githubusercontent.com/arteck/ioBroker.zwaveWS/main/admin/zwaveWS.png",
-    "readme": "https://github.com/arteck/ioBroker.zwaveWS/blob/main/README.md",
+    "extIcon": "https://raw.githubusercontent.com/arteck/ioBroker.zwavews/main/admin/zwavews.png",
+    "readme": "https://github.com/arteck/ioBroker.zwavews/blob/main/README.md",
     "loglevel": "info",
     "mode": "daemon",
     "type": "hardware",
@@ -104,19 +104,19 @@
     },
     "adminTab": {
       "name": {
-        "en": "zwaveWS",
-        "de": "zwaveWS",
-        "ru": "zwaveWS",
-        "pt": "zwaveWS",
-        "nl": "zwaveWS",
-        "fr": "zwaveWS",
-        "it": "zwaveWS",
-        "es": "zwaveWS",
-        "pl": "zwaveWS",
-        "zh-cn": "zwaveWS"
+        "en": "zwavews",
+        "de": "zwavews",
+        "ru": "zwavews",
+        "pt": "zwavews",
+        "nl": "zwavews",
+        "fr": "zwavews",
+        "it": "zwavews",
+        "es": "zwavews",
+        "pl": "zwavews",
+        "zh-cn": "zwavews"
       },
       "link": "%webUIScheme%://%webUIServer%:%webUIPort%",
-      "fa-icon": "</i><img style='width:24px;margin-bottom:-6px;' src='/adapter/zwaveWS/zwaveWS.png'><i>"
+      "fa-icon": "</i><img style='width:24px;margin-bottom:-6px;' src='/adapter/zwavews/zwavews.png'><i>"
     },
     "localLinks": {
       "_default": {
@@ -182,7 +182,7 @@
       "type": "state",
       "common": {
         "role": "indicator.connected",
-        "name": "zwaveWS connected",
+        "name": "zwavews connected",
         "type": "boolean",
         "read": true,
         "write": false,
