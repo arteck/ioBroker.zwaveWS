@@ -25,10 +25,10 @@ Switching from the zwave2 adapter is easy because all information is stored on t
 You only need to wake up the battery-powered devices once so that zwave-js-ui can read them in again.
 
 <img width="1444" height="740" alt="grafik" src="https://github.com/user-attachments/assets/876a81d3-04ab-43c6-914e-86772d0188e1" />
+<p></p>
 
 
-
-Activate WS Server Settings in `zwave-js-ui`
+Activate WS Server Settings in `zwave-js-ui` <br>
 we use the Home Assistant Settings for this:
 
 <img width="1959" height="786" alt="grafik" src="https://github.com/user-attachments/assets/9731b94f-a25f-41fd-bdc0-0236ecb4130b" />
