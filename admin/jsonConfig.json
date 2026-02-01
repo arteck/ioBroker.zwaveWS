@@ -11,7 +11,7 @@
       "items": {
         "header_Start": {
             "type": "header",
-            "text": "zwavews adapter settings",
+            "text": "zwaveWS adapter settings",
             "size": 2
         },
         "_textStart": {
@@ -62,6 +62,7 @@
               "value": "ws"
             }
           ],
+          "hidden": "true",
           "newLine": true
         },
         "baseTopic": {
@@ -280,7 +281,7 @@
         },
         "webUIServer": {
           "type": "text",
-          "label": "WebUi Address",
+          "label": "WebUi IP-Address",
           "xs": 12,
           "sm": 12,
           "md": 6,

@@ -17,7 +17,7 @@
     "MQTT-Server IP-Address bind": "Powiązanie adresu IP serwera MQTT",
     "MQTT-Server Port": "Port serwera MQTT",
     "Configure your zwaveWS WebUi connection": "Skonfiguruj połączenie WebUi zwaveWS",
-    "WebUi Address": "Adres WebUi",
+    "WebUi IP-Address": "Adres IP WebUi",
     "WebUi Port": "Port WebUi",
     "Other configurations": "Inne konfiguracje",
     "Use Auth-Token": "Użyj tokenu uwierzytelniającego",

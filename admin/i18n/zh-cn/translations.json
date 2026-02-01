@@ -17,7 +17,7 @@
   "MQTT-Server IP-Address bind": "MQTT 服务器绑定的 IP 地址",
   "MQTT-Server Port": "MQTT 服务器端口",
   "Configure your zwaveWS WebUi connection": "配置您的 zwaveWS WebUi 连接",
-  "WebUi Address": "WebUi 地址",
+  "WebUi IP-Address": "WebUi IP 地址",
   "WebUi Port": "WebUi 端口",
   "Other configurations": "其他配置",
   "Use Auth-Token": "使用认证令牌",

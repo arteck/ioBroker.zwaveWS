@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "news": {
+      "0.0.12": {
+        "en": "typo\nfix dp channel name\nadd endpoint > 0 to value if exists",
+        "de": "typo\ndp kanal name\nendpunkt hinzufügen > 0 auf wert, falls vorhanden",
+        "ru": "опечатка\nустановить имя канала dp\nдобавить конечную точку 0, если существует",
+        "pt": "erro de digitação\ncorrigir o nome do canal dp\nadicionar endpoint > 0 a valor se existir",
+        "nl": "type\nfix dp kanaalnaam\neindpunt toevoegen > 0 naar waarde indien aanwezig",
+        "fr": "typo\ncorriger le nom du canal dp\najouter le paramètre > 0 à valeur s'il existe",
+        "it": "tipo\ncorretto nome del canale dp\naggiungere il punto finale 0 a valore se esiste",
+        "es": "typo\nfijar nombre del canal dp\nañadir endpoint √ 0 a valor si existe",
+        "pl": "typo\nfix dp nazwa kanału\ndodać punkt końcowy > 0 do wartości, jeśli istnieje",
+        "uk": "типи\nзафіксувати ім'я каналів dp\nдодати кінцеву точку > 0 до значення, якщо існує",
+        "zh-cn": "类型\n修复 dp 频道名称\n添加终点 > 0 到数值( 如果存在)"
+      },
       "0.0.11": {
         "en": "fix dp types",
         "de": "dp-typen",
@@ -80,19 +93,6 @@
         "pl": "aktualizacja tytułu",
         "uk": "назва оновлення",
         "zh-cn": "更新标题"
-      },
-      "0.0.5": {
-        "en": "add online status",
-        "de": "online-status hinzufügen",
-        "ru": "добавить онлайн статус",
-        "pt": "adicionar status online",
-        "nl": "online status toevoegen",
-        "fr": "ajouter le statut en ligne",
-        "it": "aggiungere lo stato online",
-        "es": "añadir estado en línea",
-        "pl": "dodaj status online",
-        "uk": "додати статус онлайн",
-        "zh-cn": "添加在线状态"
       }
     },
     "messages": [],
