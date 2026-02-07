@@ -28,7 +28,7 @@ body:
   - type: textarea
     attributes:
       label: Device json debug 
-      description: You can get this information [here .How to do this](https://zwave-js.github.io/zwave-js-ui/#/troubleshooting/generating-logs?id=driver-logs).
+      description: You can get this information [here .How to do this](https://zwave-js.github.io/zwave-js-ui/#/troubleshooting/generating-logs?id=export-nodejson).
       
     validations:
       required: true
