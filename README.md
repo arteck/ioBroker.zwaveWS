@@ -36,6 +36,9 @@ we use the Home Assistant Settings for this:
 
 
 ## Changelog
+### 0.0.13 (2026-02-07)
+* (arteck) add event type "value notification"
+
 ### 0.0.12 (2026-02-01)
 * (arteck) typo
 * (arteck) fix dp channel name

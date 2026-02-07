@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "news": {
+      "0.0.13": {
+        "en": "add event type \"value notification\"",
+        "de": "ereignistyp hinzufügen \"wert-benachrichtigung\"",
+        "ru": "добавить событие типа «уведомление о ценности»",
+        "pt": "adicionar tipo de evento \"notificação de valor\"",
+        "nl": "gebeurtenistype \"waarde notificatie\" toevoegen",
+        "fr": "ajouter le type d'événement \"avis de valeur\"",
+        "it": "aggiungere tipo di evento \"notifica valore\"",
+        "es": "añadir tipo de evento \"notificación de valor\"",
+        "pl": "dodaj typ zdarzenia \"powiadomienie o wartości\"",
+        "uk": "додати тип події \"значення повідомлення\"",
+        "zh-cn": "添加事件类型“ 值通知”"
+      },
       "0.0.12": {
         "en": "typo\nfix dp channel name\nadd endpoint > 0 to value if exists",
         "de": "typo\ndp kanal name\nendpunkt hinzufügen > 0 auf wert, falls vorhanden",
@@ -80,19 +93,6 @@
         "pl": "dodaj nazwę, jeśli nie w drzewie informacyjnym urządzenia",
         "uk": "додати ім'я, якщо не в пристрої інформаційне дерево",
         "zh-cn": "如果没有在设备信息树中添加名称"
-      },
-      "0.0.6": {
-        "en": "update title",
-        "de": "update titel",
-        "ru": "обновить название",
-        "pt": "atualizar título",
-        "nl": "titel bijwerken",
-        "fr": "titre de la mise à jour",
-        "it": "titolo di aggiornamento",
-        "es": "título de actualización",
-        "pl": "aktualizacja tytułu",
-        "uk": "назва оновлення",
-        "zh-cn": "更新标题"
       }
     },
     "messages": [],

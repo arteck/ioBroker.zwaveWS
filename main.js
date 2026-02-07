@@ -229,7 +229,8 @@ class zwavews extends core.Adapter {
 
                 switch (eventTyp.event) {
                   case 'value updated':
-                  case 'value added': { 
+                  case 'value added': 
+                  case 'value notification': { 
                       const nodeArg = eventTyp.args;
                       const nodeId = utils.formatNodeId(eventTyp.nodeId);
 
