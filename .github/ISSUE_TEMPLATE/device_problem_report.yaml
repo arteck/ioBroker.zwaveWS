@@ -1,0 +1,34 @@
+name: Device problem report
+description: Data points or functionalities are missing
+title: "[Device problem]: "
+labels: [device problem]
+body: 
+  - type: input
+    id: versionzwave
+    attributes:
+      label: Z-Wave JS UI version
+      placeholder: 11.11.0
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Adapter version
+      placeholder: 0.0.130
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What is missing or not working
+      placeholder: I would have expected the or the data point has no function ...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Device json debug 
+      description: You can get this information [here .How to do this](https://zwave-js.github.io/zwave-js-ui/#/troubleshooting/generating-logs?id=driver-logs).
+      
+    validations:
+      required: true
