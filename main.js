@@ -146,7 +146,7 @@ class zwavews extends core.Adapter {
 
       if (wsClient) {
           wsClient.on('open', () => {
-              this.log.info('Connect to Zigbee2MQTT over websocket connection.');
+              this.log.info('Connect to zwave-js-ui over websocket connection.');
               startListening = true;
               websocketController.send(JSON.stringify({command: "start_listening"}));
           });
@@ -177,10 +177,9 @@ class zwavews extends core.Adapter {
     try {
       const messageObj = JSON.parse(message);
 
-    if (JSON.stringify(messageObj).includes(logCustomizations.debugDevices) && logCustomizations.debugDevices !== "") {
-        this.log.warn(`--->>> fromZ2W_RAW1 -> ${JSON.stringify(messageObj)}`
-        );
-    }
+      if (JSON.stringify(messageObj).includes(logCustomizations.debugDevices) && logCustomizations.debugDevices !== "") {
+        this.log.warn(`--->>> fromZ2W_RAW1 -> ${JSON.stringify(messageObj)}`);
+      }
 
       const type       = messageObj?.type;
 
