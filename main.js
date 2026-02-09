@@ -303,7 +303,13 @@ class zwavews extends core.Adapter {
                   case 'dead': {
                       const nodeId = utils.formatNodeId(eventTyp.nodeId);
                       await helper.parse(`${nodeId}.status`, eventTyp.event.toLowerCase(), options);
-
+                      
+                      if (eventTyp.event === 'dead') {
+                        await helper.parse(`${nodeId}.ready`, false, options);
+                      } else {
+                        await helper.parse(`${nodeId}.ready`, true, options);
+                      }
+                      
                       if (this.config.wakeUpInfo) {
                           this.log.info(`${utils.formatNodeId(eventTyp.nodeId)} --> ${eventTyp.event}`);
                       }

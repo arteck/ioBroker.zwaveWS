@@ -36,6 +36,9 @@ we use the Home Assistant Settings for this:
 
 
 ## Changelog
+### 0.0.14 (2026-02-09)
+* (arteck) add event ready
+
 ### 0.0.13 (2026-02-07)
 * (arteck) add event type "value notification"
 

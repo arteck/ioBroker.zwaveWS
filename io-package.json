@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "news": {
+      "0.0.14": {
+        "en": "add event ready",
+        "de": "event bereit hinzufügen",
+        "ru": "добавить событие готово",
+        "pt": "adicionar o evento pronto",
+        "nl": "evenement klaar toevoegen",
+        "fr": "ajouter l'événement prêt",
+        "it": "aggiungere evento pronto",
+        "es": "agregar evento listo",
+        "pl": "dodaj zdarzenie gotowe",
+        "uk": "додати захід готовий",
+        "zh-cn": "添加已准备的事件"
+      },
       "0.0.13": {
         "en": "add event type \"value notification\"",
         "de": "ereignistyp hinzufügen \"wert-benachrichtigung\"",
@@ -80,19 +93,6 @@
         "pl": "dodaj komunikat ostrzegawczy dla stanów inteview",
         "uk": "додати повідомлення попередження про стани inteview",
         "zh-cn": "为 inteview 状态添加警告消息"
-      },
-      "0.0.7": {
-        "en": "add name if not in device info tree",
-        "de": "name hinzufügen, wenn nicht in gerät info baum",
-        "ru": "добавить имя, если не в дереве информации устройства",
-        "pt": "adicionar nome se não na árvore de informações do dispositivo",
-        "nl": "naam toevoegen indien niet in apparaatinformatieboom",
-        "fr": "ajouter un nom si ce n'est pas dans l'arborescence d'information du périphérique",
-        "it": "aggiungere il nome se non in dispositivo info albero",
-        "es": "añadir nombre si no en el árbol de información del dispositivo",
-        "pl": "dodaj nazwę, jeśli nie w drzewie informacyjnym urządzenia",
-        "uk": "додати ім'я, якщо не в пристрої інформаційне дерево",
-        "zh-cn": "如果没有在设备信息树中添加名称"
       }
     },
     "messages": [],
