@@ -36,6 +36,9 @@ we use the Home Assistant Settings for this:
 
 
 ## Changelog
+### 0.0.16 (2026-02-09)
+* (arteck) fix warning message
+
 ### 0.0.15 (2026-02-09)
 * (arteck) typo
 * (arteck) fix ready status if status is dead

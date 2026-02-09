@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "zwavews",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "news": {
+      "0.0.16": {
+        "en": "fix warning message",
+        "de": "warnmeldung aktivieren",
+        "ru": "исправить предупреждающее сообщение",
+        "pt": "corrigir a mensagem de aviso",
+        "nl": "waarschuwingsbericht herstellen",
+        "fr": "corriger le message d'avertissement",
+        "it": "correzione del messaggio di avviso",
+        "es": "mensaje de advertencia",
+        "pl": "naprawić komunikat ostrzegawczy",
+        "uk": "фіксувати повідомлення про попередження",
+        "zh-cn": "修补警告消息"
+      },
       "0.0.15": {
         "en": "typo\nfix ready status if status is dead",
         "de": "typo\nbereitstellen des status, wenn der status tot ist",
@@ -80,19 +93,6 @@
         "pl": "wartość dodana zdarzenia",
         "uk": "додано вартість заходу",
         "zh-cn": "事件增加值"
-      },
-      "0.0.9": {
-        "en": "convert status to lower case",
-        "de": "status in den unteren fall konvertieren",
-        "ru": "преобразовать статус в нижний регистр",
-        "pt": "converter status para minúsculas",
-        "nl": "status omzetten naar kleine letters",
-        "fr": "convertir le statut en minuscules",
-        "it": "convertire lo stato in caso più basso",
-        "es": "convertir estado en caso inferior",
-        "pl": "konwertuj status na niższy przypadek",
-        "uk": "перетворення статусу в нижній корпус",
-        "zh-cn": "将状态转换为小写"
       }
     },
     "messages": [],
